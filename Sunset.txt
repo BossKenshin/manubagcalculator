@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<!-- -->
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">			<!-- link to css -->
+		<title>A simple calculator</title>
+	</head>
+	<body>
+		<div id="container">
+			<div id="calculator">
+					<div class="dropdown">
+						<button class="dropbtn">Background</button>
+						<div class="header"> AB NORM_CALC 2.0	</div>
+						<div class="dropdown-content">
+						<a href="#">Sunset</a>
+						<a href="#">Forest</a>
+						<a href="#">Beach</a>
+						</div>
+					</div>
+				<!--  This part of the program enables display of calculations of calculator-->
+				<div id="result">
+					
+				<!-- 
+					<div class="dropdown">
+					  <span>Mouse over me</span>
+						<div class="dropdown-content">
+							<p>Hello World!</p>
+						</div>
+					</div>
+				-->	
+					
+
+					
+					<div id="history">
+						<p id="history-value"></p>
+					</div>
+					<div id="output">
+						<p id="output-value"></p>
+					</div>
+				</div>
+				<!-- end of display -->
+				
+				<!-- CALCULATOR BUTTONS -->
+				<div id="keyboard">
+					<button class="operator" id="clear">C</button>
+					<button class="operator" id="backspace">CE</button>
+					<button class="operator" id="%">%</button>
+					<button class="operator" id="/">&#247;</button>
+					<button class="number" id="7">7</button>
+					<button class="number" id="8">8</button>
+					<button class="number" id="9">9</button>
+					<button class="operator" id="*">&times;</button>
+					<button class="number" id="4">4</button>
+					<button class="number" id="5">5</button>
+					<button class="number" id="6">6</button>
+					<button class="operator" id="-">-</button>
+					<button class="number" id="1">1</button>
+					<button class="number" id="2">2</button>
+					<button class="number" id="3">3</button>
+					<button class="operator" id="+">+</button>
+					<button class="empty" id="empty"></button>
+					<button class="number" id="0">0</button>
+					<button class="empty" id="empty"></button>
+					<button class="operator" id="=">=</button>
+				</div>
+				<!-- buttons end -->
+				
+			</div>
+		</div>
+		<script src="script.js"></script> 										<!-- link to javascript  -->
+	</body>
+</html>

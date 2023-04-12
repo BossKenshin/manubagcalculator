@@ -1,0 +1,169 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-image:url('calc_back.jfif');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#container{											/* this code here is beginning of the calculator box*/
+	width: 1000px;
+	height: 550px;
+	background-color: transparent;
+	margin: 20px auto;	
+}
+#calculator{
+	width: 320px;
+	height: 580px;
+	background-color: #127eab;
+	margin: 0 auto;
+	top: 10px;
+	position: absolute;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+	height: 100px;
+	background-color: #66a4bf;
+	
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width:	320px;
+  border-style: solid;
+  border-color:	#a4d4e9;
+  background-color:	#24f12c;
+}
+.header	{
+	
+	float: right;
+	text-align: center;
+	margin-top: 15px;
+	margin-right:	15px;
+	font-weight: bold; font-size: 20px;
+	font-family:	Times New Roman;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+#history{									/* this code here is the beginning of the screen for output display. */
+	
+	text-align: right;
+	height: 20px;		
+	padding-top: 20px;
+	font-size: 20px;
+	color: #eef2f5;
+	margin-right:	10px;
+}
+#output{
+	text-align: right;
+	height: 60px;								
+	font-size: 30px;
+	font-weight: bold;
+	margin-right:	10px;
+}											/* This code here ends the screen for output display  */
+#keyboard{
+	height: 400px;
+}
+.operator, .number, .empty	{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.operator	{
+	background-color:	#ebeb18;
+}
+
+.number, .empty{
+	background-color: #eaedef;
+}
+.empty{
+	background-color: transparent;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(4){
+	font-size: 20px;
+	border-style: solid;
+	border-width: thin;
+	border-color: red;
+	background-color: #c1c114;
+}
+button:nth-child(8){
+	font-size: 20px;
+	border-style: solid;
+	border-width: thin;
+	border-color: red;
+	background-color: #c1c114;
+}
+button:nth-child(12){
+	font-size: 20px;
+	border-style: solid;
+	border-width: thin;
+	border-color: red;
+	background-color: #c1c114;
+}
+button:nth-child(16){
+	font-size: 20px;
+	border-style: solid;
+	border-width: thin;
+	border-color: red;
+	background-color: #c1c114;
+}
+button:nth-child(20){
+	font-size: 20px;
+	border-style: solid;
+	border-width: thin;
+	border-color: red;
+	background-color: #c1c114;
+}
